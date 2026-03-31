@@ -7,10 +7,12 @@ import Page6 from "../imports/6";
 import Page7 from "../imports/7";
 import Page8 from "../imports/8";
 import Page9 from "../imports/9";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState(1);
+  const [displayedPage, setDisplayedPage] = useState(1);
+  const [isPageVisible, setIsPageVisible] = useState(true);
 
   const pages = [
     { number: 1, component: <Page1 />, title: "Обложка" },
@@ -24,19 +26,35 @@ export default function App() {
     { number: 9, component: <Page9 />, title: "Финал" },
   ];
 
-  const currentPageData = pages.find(p => p.number === currentPage);
+  const currentPageData = pages.find((p) => p.number === currentPage);
+  const displayedPageData = pages.find((p) => p.number === displayedPage);
+
+  useEffect(() => {
+    if (currentPage === displayedPage) {
+      return;
+    }
+
+    setIsPageVisible(false);
+
+    const switchTimer = window.setTimeout(() => {
+      setDisplayedPage(currentPage);
+      setIsPageVisible(true);
+    }, 180);
+
+    return () => window.clearTimeout(switchTimer);
+  }, [currentPage, displayedPage]);
 
   return (
     <div className="min-h-screen bg-[#f5f5f5]">
       {/* Top Menu */}
       <div className="sticky top-0 bg-white/70 backdrop-blur-md shadow-md z-10">
-        <div className="max-w-[1200px] mx-auto px-4 py-4">
+        <div className="max-w-[1200px] mx-auto px-3 py-3">
           {/* Page Navigation */}
-          <div className="flex justify-center items-center gap-6">
+          <div className="flex justify-center items-center gap-4">
             <button
               onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
               disabled={currentPage === 1}
-              className={`px-8 py-4 rounded-lg font-['Unbounded',sans-serif] font-medium text-2xl transition-all ${
+              className={`px-6 py-3 rounded-lg font-['Unbounded',sans-serif] font-medium text-lg transition-all ${
                 currentPage === 1
                   ? "bg-gray-200 text-gray-400 cursor-not-allowed"
                   : "bg-[#00b2b7] text-white hover:bg-[#009499] shadow-lg"
@@ -44,13 +62,13 @@ export default function App() {
             >
               ← 
             </button>
-            <span className="font-['Unbounded',sans-serif] font-normal text-lg text-[#2c2c2c] min-w-[120px] text-center">
+            <span className="font-['Unbounded',sans-serif] font-normal text-base text-[#2c2c2c] min-w-[84px] text-center">
               {currentPage} / {pages.length}
             </span>
             <button
               onClick={() => setCurrentPage(Math.min(pages.length, currentPage + 1))}
               disabled={currentPage === pages.length}
-              className={`px-8 py-4 rounded-lg font-['Unbounded',sans-serif] font-medium text-2xl transition-all ${
+              className={`px-6 py-3 rounded-lg font-['Unbounded',sans-serif] font-medium text-lg transition-all ${
                 currentPage === pages.length
                   ? "bg-gray-200 text-gray-400 cursor-not-allowed"
                   : "bg-[#00b2b7] text-white hover:bg-[#009499] shadow-lg"
@@ -64,8 +82,12 @@ export default function App() {
 
       {/* Current Page Display */}
       <div className="max-w-[595px] mx-auto py-8 px-4">
-        <div className="bg-white shadow-lg rounded-lg overflow-hidden relative h-[843px]">
-          {currentPageData?.component}
+        <div
+          className={`bg-white shadow-lg rounded-lg overflow-hidden relative h-[843px] transition-opacity duration-200 ${
+            isPageVisible ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          {displayedPageData?.component}
         </div>
       </div>
     </div>

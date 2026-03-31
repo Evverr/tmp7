@@ -90,7 +90,7 @@ export default function Component() {
         <p className="leading-[27px] mb-0">— Ой-ой-ой!</p>
         <p className="leading-[27px]">Мурчик закачался…</p>
       </div>
-      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[600px] leading-[0] left-[358px] not-italic text-[#2c2c2c] text-[13px] top-[434px] tracking-[0.26px] w-[842px] whitespace-pre-wrap">
+      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[600px] leading-[0] left-[318px] not-italic text-[#2c2c2c] text-[13px] top-[434px] tracking-[0.26px] w-[207px] whitespace-pre-wrap">
         <p className="leading-[27px] mb-0">ПЛЮХ!</p>
         <p className="leading-[27px] mb-0">Он оказался в воде.</p>
         <p className="leading-[27px] mb-0">
