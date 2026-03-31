@@ -26,7 +26,6 @@ export default function App() {
     { number: 9, component: <Page9 />, title: "Финал" },
   ];
 
-  const currentPageData = pages.find((p) => p.number === currentPage);
   const displayedPageData = pages.find((p) => p.number === displayedPage);
 
   useEffect(() => {
@@ -56,8 +55,8 @@ export default function App() {
               disabled={currentPage === 1}
               className={`px-6 py-3 rounded-lg font-['Unbounded',sans-serif] font-medium text-lg transition-all ${
                 currentPage === 1
-                  ? "bg-gray-200 text-gray-400 cursor-not-allowed"
-                  : "bg-[#00b2b7] text-white hover:bg-[#009499] shadow-lg"
+                  ? "bg-white text-gray-300 cursor-not-allowed border border-gray-200"
+                  : "bg-white text-[#00b2b7] hover:bg-gray-50 shadow-lg border border-[#d9eeef]"
               }`}
             >
               ← 
@@ -70,8 +69,8 @@ export default function App() {
               disabled={currentPage === pages.length}
               className={`px-6 py-3 rounded-lg font-['Unbounded',sans-serif] font-medium text-lg transition-all ${
                 currentPage === pages.length
-                  ? "bg-gray-200 text-gray-400 cursor-not-allowed"
-                  : "bg-[#00b2b7] text-white hover:bg-[#009499] shadow-lg"
+                  ? "bg-white text-gray-300 cursor-not-allowed border border-gray-200"
+                  : "bg-white text-[#00b2b7] hover:bg-gray-50 shadow-lg border border-[#d9eeef]"
               }`}
             >
               →

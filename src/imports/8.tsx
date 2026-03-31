@@ -95,7 +95,7 @@ export default function Component() {
           </svg>
         </div>
       </div>
-      <div className="-translate-x-full absolute font-['Unbounded',sans-serif] font-normal h-[835px] leading-[0] left-[534px] not-italic text-[#2c2c2c] text-[13px] text-right top-[540px] tracking-[0.26px] w-[454px] whitespace-pre-wrap">
+      <div className="-translate-x-full absolute font-['Unbounded',sans-serif] font-normal h-[835px] leading-[0] left-[525px] not-italic text-[#2c2c2c] text-[13px] text-right top-[540px] tracking-[0.26px] w-[454px] whitespace-pre-wrap">
         <p className="leading-[27px] mb-0">&nbsp;</p>
         <p className="leading-[27px] mb-0">— У меня получается! — радовался Мурчик.</p>
         <p className="leading-[27px] mb-0">Но потом он ударил слишком сильно…</p>
