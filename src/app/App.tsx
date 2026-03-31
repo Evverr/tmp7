@@ -36,7 +36,7 @@ export default function App() {
             <button
               onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
               disabled={currentPage === 1}
-              className={`px-8 py-4 rounded-lg font-['Unbounded:Medium',sans-serif] text-2xl transition-all ${
+              className={`px-8 py-4 rounded-lg font-['Unbounded',sans-serif] font-medium text-2xl transition-all ${
                 currentPage === 1
                   ? "bg-gray-200 text-gray-400 cursor-not-allowed"
                   : "bg-[#00b2b7] text-white hover:bg-[#009499] shadow-lg"
@@ -44,13 +44,13 @@ export default function App() {
             >
               ← 
             </button>
-            <span className="font-['Unbounded:Regular',sans-serif] text-lg text-[#2c2c2c] min-w-[120px] text-center">
+            <span className="font-['Unbounded',sans-serif] font-normal text-lg text-[#2c2c2c] min-w-[120px] text-center">
               {currentPage} / {pages.length}
             </span>
             <button
               onClick={() => setCurrentPage(Math.min(pages.length, currentPage + 1))}
               disabled={currentPage === pages.length}
-              className={`px-8 py-4 rounded-lg font-['Unbounded:Medium',sans-serif] text-2xl transition-all ${
+              className={`px-8 py-4 rounded-lg font-['Unbounded',sans-serif] font-medium text-2xl transition-all ${
                 currentPage === pages.length
                   ? "bg-gray-200 text-gray-400 cursor-not-allowed"
                   : "bg-[#00b2b7] text-white hover:bg-[#009499] shadow-lg"
