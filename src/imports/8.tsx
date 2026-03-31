@@ -8,7 +8,7 @@ export default function Component() {
         <p className="absolute leading-[50px] left-[calc(50%-2.5px)] opacity-30 text-[#2c2c2c] text-[12px] top-[779px]">8</p>
         <p className="absolute leading-[110px] left-[70px] text-[#38db81] text-[30px] top-[14px]">Теннис</p>
       </div>
-      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[361px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[120px] tracking-[0.26px] w-[397px] whitespace-pre-wrap">
+      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[361px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[120px] tracking-[0.26px] w-[395px] whitespace-pre-wrap">
         <p className="leading-[27px] mb-0">Во дворе снова появились дети — на этот раз с ракетками.</p>
         <p className="leading-[27px] mb-0">— Теннис! — услышал Мурчик.</p>
         <p className="leading-[27px] mb-0">— Это про ловкость!</p>

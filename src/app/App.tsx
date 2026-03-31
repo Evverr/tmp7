@@ -46,7 +46,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#f5f5f5]">
       {/* Top Menu */}
-      <div className="sticky top-0 bg-white/70 backdrop-blur-md shadow-md z-10">
+      <div className="sticky top-0 bg-white/70 backdrop-blur-md shadow-[0_4px_12px_rgba(0,0,0,0.08)] z-10">
         <div className="max-w-[1200px] mx-auto px-3 py-3">
           {/* Page Navigation */}
           <div className="flex justify-center items-center gap-4">
@@ -56,7 +56,7 @@ export default function App() {
               className={`px-6 py-3 rounded-lg font-['Unbounded',sans-serif] font-medium text-lg transition-all ${
                 currentPage === 1
                   ? "bg-white text-gray-300 cursor-not-allowed border border-gray-200"
-                  : "bg-white text-[#00b2b7] hover:bg-gray-50 shadow-lg border border-[#d9eeef]"
+                  : "bg-white text-[#00b2b7] hover:bg-gray-50 border border-[#d9eeef]"
               }`}
             >
               ← 
@@ -70,7 +70,7 @@ export default function App() {
               className={`px-6 py-3 rounded-lg font-['Unbounded',sans-serif] font-medium text-lg transition-all ${
                 currentPage === pages.length
                   ? "bg-white text-gray-300 cursor-not-allowed border border-gray-200"
-                  : "bg-white text-[#00b2b7] hover:bg-gray-50 shadow-lg border border-[#d9eeef]"
+                  : "bg-white text-[#00b2b7] hover:bg-gray-50 border border-[#d9eeef]"
               }`}
             >
               →

@@ -83,7 +83,7 @@ export default function Component() {
           </svg>
         </div>
       </div>
-      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[227px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[109px] tracking-[0.26px] w-[455px]">
+      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[227px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[109px] tracking-[0.26px] w-[395px]">
         <p className="leading-[27px] mb-0">В этот день во дворе дети играли в бейсбол.</p>
         <p className="leading-[27px] mb-0">Один мальчик бросал мяч, а другой отбивал его длинной палкой.</p>
         <p className="leading-[27px] mb-0">— Вот это да! — восхитился Мурчик. — Я тоже так смогу!</p>
@@ -91,14 +91,14 @@ export default function Component() {
         <p className="leading-[27px] mb-0">Он замахнулся… и… БУМ!</p>
         <p className="leading-[27px]">&nbsp;</p>
       </div>
-      <div className="absolute font-['Unbounded',sans-serif] font-normal leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[274px] tracking-[0.26px] w-[455px]">
+      <div className="absolute font-['Unbounded',sans-serif] font-normal leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[338px] tracking-[0.26px] w-[395px]">
         <p className="leading-[27px] mb-0">&nbsp;</p>
         <p className="leading-[27px] mb-0">Мячик улетел далеко-далеко — прямо в густые кусты.</p>
         <p className="leading-[27px] mb-0">— Ура! — закричал Мурчик и побежал за ним.</p>
         <p className="leading-[27px] mb-0">Но в кустах оказалось не так просто.</p>
         <p className="leading-[27px]">Ветки цеплялись за хвост, листья щекотали нос, а где-то внутри что-то шуршало.</p>
       </div>
-      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[274px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[449px] tracking-[0.26px] w-[205px]">
+      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[274px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[522px] tracking-[0.26px] w-[205px]">
         <p className="leading-[27px] mb-0">&nbsp;</p>
         <p className="leading-[27px] mb-0">— Ой… — сказал Мурчик. — Кажется, я заблудился…</p>
         <p className="leading-[27px] mb-0">Он осторожно выбрался обратно, весь в листиках и с веточкой за ухом.</p>

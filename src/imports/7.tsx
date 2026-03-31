@@ -71,7 +71,7 @@ export default function Component() {
           </div>
         </div>
       </div>
-      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[361px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[132px] tracking-[0.26px] w-[397px] whitespace-pre-wrap">
+      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[361px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[132px] tracking-[0.26px] w-[395px] whitespace-pre-wrap">
         <p className="leading-[27px] mb-0">Однажды Мурчик поехал с хозяином к воде.</p>
         <p className="leading-[27px] mb-0">Там были волны, чайки и люди на досках.</p>
         <p className="leading-[27px] mb-0">— Это сёрфинг! — сказал хозяин.</p>
