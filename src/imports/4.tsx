@@ -46,7 +46,7 @@ export default function Component() {
           </div>
         </div>
       </div>
-      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[876px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[109px] tracking-[0.26px] w-[395px]">
+      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[876px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[109px] tracking-[0.26px] w-[475px]">
         <p className="leading-[27px] mb-0">На следующий день Мурчик заметил во дворе высокое кольцо с сеткой.</p>
         <p className="leading-[27px] mb-0">— Это, наверное, новый спорт! — сказал он.</p>
         <p className="leading-[27px] mb-0">Он увидел, как дети бросают мяч вверх, и тот попадает в кольцо.</p>
@@ -61,7 +61,7 @@ export default function Component() {
           <img alt="" className="absolute h-[208.13%] left-[-112.22%] max-w-none top-0 w-[312.83%]" src={imgChatGptImage3120261040545} />
         </div>
       </div>
-      <div className="-translate-x-full absolute font-['Unbounded',sans-serif] font-normal h-[618px] leading-[0] left-[525px] not-italic text-[#2c2c2c] text-[13px] text-right top-[360px] tracking-[0.26px] w-[256px] whitespace-pre-wrap">
+      <div className="-translate-x-full absolute font-['Unbounded',sans-serif] font-normal h-[618px] leading-[0] left-[556px] not-italic text-[#2c2c2c] text-[13px] text-right top-[360px] tracking-[0.26px] w-[256px] whitespace-pre-wrap">
         <p className="leading-[27px] mb-0">&nbsp;</p>
         <p className="leading-[27px] mb-0">— Ай-ай-ай! — сказал Мурчик, потирая нос лапкой.</p>
         <p className="leading-[27px] mb-0">Но потом он улыбнулся:</p>

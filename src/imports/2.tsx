@@ -5,7 +5,7 @@ export default function Component() {
       <div className="absolute h-[842px] left-0 overflow-clip top-0 w-[595px]" data-name="A4 - 3" style={{ backgroundImage: "linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%), linear-gradient(rgb(47, 218, 227) 0%, rgb(80, 251, 223) 84.135%)" }}>
         <p className="absolute font-['Unbounded',sans-serif] font-medium leading-[50px] left-[calc(50%-2.5px)] not-italic opacity-30 text-[#2c2c2c] text-[12px] top-[779px] whitespace-nowrap">2</p>
       </div>
-      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[309px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[80px] tracking-[0.26px] w-[395px] whitespace-pre-wrap">
+      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[309px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[80px] tracking-[0.26px] w-[455px] whitespace-pre-wrap">
         <p className="leading-[27px] mb-0">
           Жил-был на свете маленький котик по имени Мурчик.
           <br aria-hidden="true" />
@@ -19,7 +19,7 @@ export default function Component() {
         </p>
         <p className="leading-[27px]">&nbsp;</p>
       </div>
-      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[202px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[426px] tracking-[0.26px] w-[395px] whitespace-pre-wrap">
+      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[202px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[426px] tracking-[0.26px] w-[455px] whitespace-pre-wrap">
         <p className="leading-[27px] mb-0">
           Однажды утром Мурчик проснулся особенно рано.
           <br aria-hidden="true" />

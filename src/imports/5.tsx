@@ -67,7 +67,7 @@ export default function Component() {
           </svg>
         </div>
       </div>
-      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[382px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[120px] tracking-[0.26px] w-[395px]">
+      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[382px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[120px] tracking-[0.26px] w-[476px]">
         <p className="leading-[27px] mb-0">Вечером Мурчик вернулся домой и увидел по телевизору боксёров.</p>
         <p className="leading-[27px] mb-0">Они стояли друг напротив друга и быстро двигали лапами (ну, руками).</p>
         <p className="leading-[27px] mb-0">— Ух ты! — сказал Мурчик. — Вот это сила и смелость!</p>

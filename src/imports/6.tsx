@@ -51,7 +51,7 @@ export default function Component() {
           </div>
         </div>
       </div>
-      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[382px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[119px] tracking-[0.26px] w-[395px]">
+      <div className="absolute font-['Unbounded',sans-serif] font-normal h-[382px] leading-[0] left-[70px] not-italic text-[#2c2c2c] text-[13px] top-[119px] tracking-[0.26px] w-[476px]">
         <p className="leading-[27px] mb-0">На следующий день во дворе девочка каталась на велосипеде.</p>
         <p className="leading-[27px] mb-0">Колёса крутились, ветер развевал её волосы.</p>
         <p className="leading-[27px] mb-0">— Вот это скорость! — восхитился Мурчик.</p>
